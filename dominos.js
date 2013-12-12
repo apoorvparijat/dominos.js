@@ -3,6 +3,8 @@ Number.prototype.pad = function(n) {
 }
 
 $ = jQuery;
+
+// Example - applyCoupon('d', 300)
 function applyCoupon(character, counter) {
   if($($(".jqimessage h3")[0]).text() == 'Invalid Coupon'){
     console.log("Invalid coupon");
