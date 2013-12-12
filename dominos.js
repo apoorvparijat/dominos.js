@@ -4,7 +4,6 @@ Number.prototype.pad = function(n) {
 
 $ = jQuery;
 
-// Example - applyCoupon('d', 300)
 function applyCoupon(character, counter) {
   if($($(".jqimessage h3")[0]).text() == 'Invalid Coupon'){
     console.log("Invalid coupon");
@@ -21,3 +20,5 @@ function applyCoupon(character, counter) {
   $('#redeem-coupon-button').click();
   setTimeout(function(x) { return function() {applyCoupon(character, x)} }(counter), 2000);
 }
+
+applyCoupon('d', 300)
