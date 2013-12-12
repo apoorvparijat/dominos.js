@@ -21,4 +21,5 @@ function applyCoupon(character, counter) {
   setTimeout(function(x) { return function() {applyCoupon(character, x)} }(counter), 2000);
 }
 
-applyCoupon('d', 300)
+// Uncomment the below line to call the function. Try different characters if a lot of coupon fail.
+// applyCoupon('d', 300)
