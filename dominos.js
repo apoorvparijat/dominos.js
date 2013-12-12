@@ -9,7 +9,7 @@ function applyCoupon(character, counter) {
     console.log("Invalid coupon");
     $("#jqi_state0_buttonOk").click();
   } else if ($($(".jqimessage h3")[0]).text() == 'Coupon Added Successfully'){
-    console.log("You shall pass!");
+    console.log("You shall pass with a free pizza!");
     return;
   }
   if(window.halt)
