@@ -13,11 +13,11 @@ Advanced
 
 Type in `halt = true` to stop execution anytime.
 
-If the coupons don't work, call `applyCoupon` manually with different parameter.
+If the coupons don't work, call `start` manually with different parameter.
 
 
 ```
-applyCoupon('e', 0);
+start('e', 0);
 ```
 
 Troubleshoot
