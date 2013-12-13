@@ -30,4 +30,4 @@ function stop() {
     window.halt = true;
 }
 
-start('d', 755)
+start('a', 1)
