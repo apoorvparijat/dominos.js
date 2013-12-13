@@ -2,19 +2,25 @@ Instruction
 =============
 
 1. Navigate to Dominos pizza selection page.
-2. Open the javascript console
-3. Paste the content of `dominos.js` in the console
-4. Call the function `applyCoupon` with the character and initial number parameter.
+2. Add 2 pizzas in the cart
+3. Press `Ctrl + Shift + J` for Windows / `Cmd + Opt + J` for Mac
+4. Paste the content of `dominos.js`
+5. Sit back while the coupon is applied. (Might take a minute).
 
 
-Range for number param: 1 - 999
-
-
-
-Example
+Advanced
 =============
 
+Type in `halt = true` to stop execution anytime.
+
+If the coupons don't work, call `applyCoupon` manually with different parameter.
+
+
 ```
-applyCoupon('d', 300)
+applyCoupon('e', 0);
 ```
 
+Troubleshoot
+=============
+
+Make sure you set `halt = false` before calling `applyCoupon` function.
