@@ -26,6 +26,15 @@ Troubleshoot
 Make sure you set `halt = false` before calling `applyCoupon` function.
 
 
+Working Parameter
+=============
+
+List of working parameter
+
+- Dec 13 - d, 755
+- Dec 12 - d, 300
+
+
 Links
 =============
 Follow comments [here](http://www.savemoneyindia.com/dominos-buy-one-pizza-get-one-pizza-free-coupons-2/) to keep track of
