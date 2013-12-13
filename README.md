@@ -4,7 +4,7 @@ Instruction
 1. Navigate to Dominos pizza selection page.
 2. Add 2 pizzas in the cart
 3. Press `Ctrl + Shift + J` for Windows / `Cmd + Opt + J` for Mac
-4. Paste the content of `dominos.js`
+4. Paste the content of [dominos.js](https://github.com/apoorvparijat/dominos.js/blob/master/dominos.js)
 5. Sit back while the coupon is applied. (Might take a minute).
 
 
