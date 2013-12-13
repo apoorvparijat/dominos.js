@@ -21,4 +21,9 @@ function applyCoupon(character, counter) {
   setTimeout(function(x) { return function() {applyCoupon(character, x)} }(counter), 2000);
 }
 
-applyCoupon('d', 300)
+function start(character, counter) {
+    window.halt = false;
+    applyCoupon(character, counter);
+}
+
+start('d', 300)
