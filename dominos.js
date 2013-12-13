@@ -18,7 +18,7 @@ function applyCoupon(character, counter) {
   console.log('Trying ' + val);
   jQuery('#coupon-code-field').val(val);
   $('#redeem-coupon-button').click();
-  setTimeout(function(x) { return function() {applyCoupon(character, x)} }(counter), 2000);
+  setTimeout(function(x) { return function() {applyCoupon(character, x)} }(counter), 2500);
 }
 
 function start(character, counter) {
