@@ -26,4 +26,4 @@ function start(character, counter) {
     applyCoupon(character, counter);
 }
 
-start('d', 300)
+start('d', 755)
