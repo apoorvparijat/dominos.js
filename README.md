@@ -21,11 +21,6 @@ stop();
 start('e', 0);
 ```
 
-Troubleshoot
-=============
-
-Make sure you set `halt = false` before calling `applyCoupon` function.
-
 
 Working Parameter
 =============
@@ -38,5 +33,12 @@ List of working parameter
 
 Links
 =============
+
 Follow comments [here](http://www.savemoneyindia.com/dominos-buy-one-pizza-get-one-pizza-free-coupons-2/) to keep track of
 what's working.
+
+
+Troubleshoot
+=============
+
+Make sure you set `halt = false` before calling `applyCoupon` function.
