@@ -31,7 +31,7 @@ Working Parameter
 
 List of working parameter
 
-- Dec 13 (d, 755)
+- Dec 13 - (d, 755)
 - Dec 12 - (d, 300)
 
 
