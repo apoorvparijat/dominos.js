@@ -26,4 +26,8 @@ function start(character, counter) {
     applyCoupon(character, counter);
 }
 
+function stop() {
+    window.halt = true;
+}
+
 start('d', 755)
