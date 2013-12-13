@@ -17,6 +17,7 @@ If the coupons don't work, call `start` manually with different parameter.
 
 
 ```
+stop();
 start('e', 0);
 ```
 
