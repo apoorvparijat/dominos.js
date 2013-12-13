@@ -18,15 +18,18 @@ If the coupons don't work, call `start` manually with different parameter.
 
 ```
 stop();
-start('e', 0);
+start('a', 0);
 ```
 
 
 Working Parameter
 =============
 
-- Dec 13 - (d, 755)
-- Dec 12 - (d, 300)
+- Dec 13 
+   - ('d', 755)
+   - ('a', 1)
+- Dec 12
+   - ('d', 300)
 
 
 Links
